@@ -1,6 +1,6 @@
 {
   "name": "sleep-but-simple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple sleep package with Typescript support, because I couldn't find a good one on npm",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -19,7 +19,7 @@
   ],
   "keywords": [],
   "author": "boot_scrap_van",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "devDependencies": {
     "typescript": "^5.1.6"
   }
