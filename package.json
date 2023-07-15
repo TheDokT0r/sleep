@@ -1,6 +1,6 @@
 {
-  "name": "simple-sleep",
-  "version": "0.0.1",
+  "name": "sleep-but-simple",
+  "version": "1.0.0",
   "description": "A simple sleep package with Typescript support, because I couldn't find a good one on npm",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "build:cjs": "tsc --module commonjs"
+    "build:cjs": "tsc --module commonjs",
+    "publish": "npm publish --access public"
   },
   "files": [
     "dist"
