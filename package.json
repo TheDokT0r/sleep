@@ -1,15 +1,23 @@
 {
   "name": "simple-sleep",
   "version": "0.0.1",
-  "description": "",
+  "description": "A simple sleep package with Typescript support, because I couldn't find a good one on npm",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheDokT0r/sleep.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "build:cjs": "tsc --module commonjs"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
-  "author": "",
+  "author": "boot_scrap_van",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.1.6"
